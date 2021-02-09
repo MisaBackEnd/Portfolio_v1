@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
+/*Reset*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utity*/
+.bg-primary {
+  background: #27ae60;
+}
+
+.btn-primary {
+  background: #27ae60;
+  padding: 0.5rem 2rem;
+  border-radius: 15px;
+  font-size: 1.1875rem;
+  text-align: center;
+}
+
+.btn-secondary {
+  /* padding: 0.5rem 1rem; */
+  /* border-radius: 5px; */
+  margin-left: 1rem;
+  font-size: 1.1875rem;
+  text-align: center;
+  border-bottom: #fff9f9 2px solid;
+}
+
+.text-primary {
+  color: #27ae60;
+}
+
+.bg-dark {
+  background: #282828;
+}
+
+.text-dark {
+  color: #fff9f9;
+}
+
+/*navbar*/
+#navbar {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 7rem 0;
+  top: 0;
+  background: transparent;
+  z-index: 1;
+}
+
+#navbar h1 {
+  font-size: 1.5625rem;
+}
+
+#navbar ul {
+  list-style: none;
+  flex: 3;
+  display: flex;
+  margin: 0 0.5rem;
+}
+
+#navbar ul li {
+  margin: 0.5rem;
+}
+
+#navbar ul li a {
+  color: #fff9f9;
+  font-size: 1.1875rem;
+}
+
+#navbar .nav-cta {
+  display: flex;
+  background: #27ae60;
+  /* width: 6rem; */
+  align-self: baseline;
+  border: none;
+  flex: 2;
+  /* margin: 0.5rem; */
+  padding: 0.5rem 3rem;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff9f9;
+}
+
+.hero {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#home {
+  color: #fff9f9;
+}
+
+#home .content {
+  display: flex;
+}
+
+#home .content article {
+  padding: 12% 4rem 0 7rem;
+  /* animation: fadeIn 900ms ease-in; */
+}
+
+#home .content article h2 {
+  font-size: 3.75rem;
+  /* font-weight: bolder; */
+}
+
+#home .content article p {
+  font-size: 1.375rem;
+  font-weight: 300;
+  opacity: 1;
+  letter-spacing: 0;
+  line-height: 2.5rem;
+  padding-right: 8rem;
+  /* font-weight: bolder; */
+}
+
+#home .content article legend {
+  letter-spacing: 0.96rem;
+}
+
+#home .ctas {
+  margin-top: 1.5rem;
+}
+
+.languages {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .languages {
+    display: block;
+    padding-top: 12%;
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 100%;
+  }
+
+  #django {
+    padding-left: 300px;
+    padding-top: 50px;
+    animation: fadeIn 1500ms ease-in;
+  }
+
+  #node {
+    animation: fadeIn 1500ms ease-in;
+  }
+
+  @keyframes languages-onload {
+    0% {
+      transform: translate(-20%, -10%);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translate(-20%, -10%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0,0);
+    }
+  }
+}
+
+#nocolorh2 {
+  color: transparent;
+}
+
+#typed2 {
+  color: #fff9f9;
+}
