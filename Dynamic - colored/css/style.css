@@ -34,7 +34,7 @@ a {
   margin-left: 1rem;
   font-size: 1.1875rem;
   text-align: center;
-  border-bottom: #fff9f9 2px solid;
+  border-bottom: #fff9f9 2px dotted;
 }
 
 .text-primary {
@@ -112,7 +112,7 @@ a {
 }
 
 #home .content article {
-  padding: 12% 0 0 11.375rem;
+  padding: 14% 0 0 11.375rem;
   /* animation: fadeIn 900ms ease-in; */
 }
 
@@ -126,7 +126,7 @@ a {
   font-weight: 300;
   opacity: 1;
   letter-spacing: 0;
-  line-height: 2.5rem;
+  line-height: 2rem;
   padding-right: 8rem;
   /* font-weight: bolder; */
 }
@@ -146,10 +146,11 @@ a {
 @media (min-width: 1440px) {
   .languages {
     display: block;
-    padding-top: 12%;
+    padding-top: 13%;
     /* background-color: aliceblue; */
     width: 100%;
     height: 100%;
+    padding-left: 40px;
   }
 
   #django {
