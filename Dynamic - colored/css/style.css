@@ -273,3 +273,9 @@ legend {
   align-self: center;
 }
 
+#projects{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
