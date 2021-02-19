@@ -272,10 +272,48 @@ legend {
   width: 25%;
   align-self: center;
 }
+/* portafolio */
 
 #projects{
   display: flex;
   flex-direction: row;
   height: 100vh;
+}
+
+#projects article h2 {
+  font-size: 3.2rem;
+  /* font-weight: bolder; */
+}
+
+#projects article p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 90%;
+  opacity: 1;
+  letter-spacing: 0;
+  line-height: 2rem;
+  text-align: justify;
+  padding-top: 2rem;
+  /* font-weight: bolder; */
+}
+
+#projects article {
+  padding: 12.5% 0 0 11.375rem;
+  flex: 1.5;
+  /* animation: fadeIn 900ms ease-in; */
+}
+#projects .gallery {
+  padding: 12.5% 11rem 0 0;
+  flex: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: auto;
+  /* animation: fadeIn 900ms ease-in; */
+}
+
+#projects .gallery .item{
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: #067b37;
 }
 
